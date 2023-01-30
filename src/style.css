@@ -150,7 +150,9 @@ main {
 
 .get-in-touch {
     grid-area: get-in-touch;
-
+    margin: 0 auto;
+    width: 100%;
+    padding: 2rem;
 }
 
 .type-secondary {
