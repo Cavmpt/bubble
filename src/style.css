@@ -306,6 +306,12 @@ footer .footer-content {
 }
 
 @media only screen and (max-width: 834px) {
+    .logo a {
+        font-size: 5rem;
+    }
+    .intro {
+        font-size: 3rem;
+    }
     :root {
         --v-space: 4rem;
     }
@@ -313,12 +319,17 @@ footer .footer-content {
         font-size: 14px;
     }
     main {
-        grid-template-columns: 0.5fr 8fr 8fr 0.5fr;
-        padding-left: 1.3rem;
+        grid-template-columns: 1fr 8fr 8fr 1fr;
     }
 }
 
 @media only screen and (max-width: 736px) {
+    .logo a {
+        font-size: 5rem;
+    }
+    .intro {
+        font-size: 3rem;
+    }
     :root {
         --v-space: 3rem;
     }
@@ -326,8 +337,7 @@ footer .footer-content {
         font-size: 12px;
     }
     main {
-        padding-left: 1.3rem;
-        grid-template-columns: 0.5fr 10fr 10fr 0.5fr;
+        grid-template-columns: 0.1fr 10fr 10fr 0.1fr;
     }
 }
 
